@@ -16,7 +16,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 50;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -92,11 +92,11 @@ footer {
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
-  color: #aaa;
+  color: ##6d6d6d;
 }
 
 footer a {
-  color: #aaa;
+  color: #6d6d6d;
 }
 footer a:hover {
   color: #aaa;
