@@ -59,7 +59,7 @@ a:hover {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 40%;
   margin-top:-100px;
   text-align: center;
 }
@@ -104,3 +104,30 @@ footer a:hover {
 .calendar {
   display: none;
 }
+
+.show_calendar, .show_calendar:hover {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.247059) 0px 1px 5px 0px;
+background-color: rgb(0, 109, 204);
+background-image: linear-gradient(#EF5E67, #d5000d);
+background-repeat: repeat-x;
+box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.247059) 0px 1px 5px 0px;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-size: 16px;
+font-weight: 200;
+height: 16px;
+line-height: 16px;
+padding: 10px 24px ;
+text-align: center;
+text-decoration: none;
+text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+}
+
+.show_calendar:hover {
+  background: #d5000d;
+  }
