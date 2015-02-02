@@ -13,6 +13,16 @@
     <meta property="og:image" content="http://imgur.com/xssf4OC" />
     <meta property="og:type" content="profile" />
     <meta property="profile:first_name " content="Ruth" />
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $(".show_calendar").click(function(e){
+          e.preventDefault;
+          $(".calendar").show();
+          $(".show_calendar").remove();
+        })
+      });
+    </script>
   </head>
 
   <body>
@@ -20,10 +30,12 @@
       <div class="inner">
         <section id="main_content">
           <h1 class="no">Portland, OR.</h1>
-         <p>Currently until February 22.</p><p>Need a meeting? <a target="_blank" href="http://www.timeanddate.com/worldclock/meeting.html?p1=224">Check timezones</a> or <a href="http://doodle.com/rfuller" target="_blank">schedule</a></p>
-<br>
-<br>
-         <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=pgk24o6kig4j0mgv4joeubhk2c%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+         <p>Currently until February 22.</p><p>Need a meeting? <a target="_blank" href="http://www.timeanddate.com/worldclock/meeting.html?p1=224">Check timezones</a> or <a href="http://doodle.com/rfuller" target="_blank">schedule</a>.</p>
+         <p>&nbsp;</p>
+         <p> <a href="#" class="show_calendar">show calendar</a></p>
+         <div class="calendar">
+          <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=pgk24o6kig4j0mgv4joeubhk2c%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+         </div>
         </section> <footer>
           SEND RUTH A MESSAGE 
           <br> <a target="_blank" href="http://www.twitter.com/drupalruth">Twitter</a> &ndash; <a target="_blank" href="mailto:rfuller@blackmesh.com">Email</a> &ndash; <a target="_blank" href="skype:ruthhfuller?chat&msg">Skype</a> &ndash; <a href="tel:888-473-0854">888.473.0854</a> ext 745</i>
